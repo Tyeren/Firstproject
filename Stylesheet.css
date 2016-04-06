@@ -1,0 +1,113 @@
+#personalInfo {
+    background:url("http://dreamatico.com/data_images/cloud/cloud-4.jpg")  ;
+    opacity: ;
+    font-family: 'Bangers' , cursive;
+}
+#centerText {
+    background-color: rgb(115,28,29);
+}
+#hobbys {
+    color: rgb(178,176,17);
+    font-family: 'Bangers' , cursive;
+}
+body {
+
+    background-color: rgb(15,69,102)
+}
+#userInfo {
+}
+label {
+    border: ;
+}
+#halo {
+    background:url("https://i.ytimg.com/vi/SrPJ0j9NdVk/maxresdefault.jpg");
+    background-size: 100% 100%;
+
+
+    background-repeat: no-repeat;
+}
+#contactInfo {
+    font-family: 'Bangers' , cursive;
+}
+#CC {
+    background:url("http://www.hdwallpapers.in/walls/command_and_conquer_3-HD.jpg") ;
+    background-size: 100%100%;
+    background-repeat: no-repeat;
+
+}
+#centerText {
+    text-decoration: underline;
+    color:rgb(153,151,7);
+}
+header h1 {
+    font-family:'Bangers' , cursive ;
+    color: rgb(8,113,178);
+}
+#contactInfo {
+    color:rgb(178,176,17)
+}
+#league {
+background:url("http://cdn.playbuzz.com/cdn/c827df49-7a68-411c-8ec4-afde032371e2/50f8c88d-9250-488c-916e-f161734f05df.jpg") ;
+    background-size: 100%100%;
+}
+#blizzard {
+    background:url("https://victoriagiorgiana.files.wordpress.com/2014/05/blizzard-games.jpg");
+    background-size: 100%100%;
+}
+#camp {
+    background:url("http://i.kinja-img.com/gawker-media/image/upload/oyupqdx0xdqeft3jyymb.jpg");
+    background-size: 100%100%;
+}
+#basketBall {
+    background:url("http://ecx.images-amazon.com/images/I/81RG%2BA8r82L.jpg");
+    background-size: 100%100%;
+}
+#airSoft {
+    background:url("http://blog.airsoft-squared.com/wp-content/uploads/2014/06/maxresdefault.jpg");
+    background-size: 100%100%;
+}
+
+.mainBodytext {
+    font-family: 'Bangers' , cursive;
+    color:rgb(153,151,7);
+}
+.myButton {
+    -moz-box-shadow: 0px 10px 15px -7px #276873;
+    -webkit-box-shadow: 0px 10px 15px -7px #276873;
+    box-shadow: 0px 10px 15px -7px #276873;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+    background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+    background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+    background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+    background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+    background-color:#599bb3;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius:20px;
+    border:5px solid #29668f;
+    display:inline-block;
+    cursor:pointer;
+    color:rgb(115,28,28);
+    font-family: 'Bangers' , cursive;
+    font-size:15px;
+    font-weight:bold;
+    padding:5px 46px;
+    text-decoration:none;
+    text-shadow:16px -6px 0px #3d768a;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+    background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+    background-color:#408c99;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
