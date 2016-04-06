@@ -17,7 +17,7 @@ body {
 #userInfo {
 }
 label {
-    border: ;
+    border: rgb(115,28,29) double ;
 }
 #halo {
     background:url("https://i.ytimg.com/vi/SrPJ0j9NdVk/maxresdefault.jpg");
@@ -27,7 +27,7 @@ label {
     background-repeat: no-repeat;
 }
 #contactInfo {
-    font-family: 'Bangers' , cursive;
+    font-family: 'Bangers', cursive;
 }
 #CC {
     background:url("http://www.hdwallpapers.in/walls/command_and_conquer_3-HD.jpg") ;
