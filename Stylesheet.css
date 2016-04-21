@@ -1,18 +1,22 @@
 #personalInfo {
+    font-size: large;
+    color: black;
     background:url("http://dreamatico.com/data_images/cloud/cloud-4.jpg")  ;
     opacity: ;
     font-family: 'Bangers' , cursive;
 }
 #centerText {
     background-color: rgb(115,28,29);
+    overflow: hidden;
 }
 #hobbys {
     color: rgb(178,176,17);
     font-family: 'Bangers' , cursive;
+    overflow: hidden;
 }
 body {
 
-    background-color: rgb(15,69,102)
+    background-color: rgb(115,28,28)
 }
 #userInfo {
 }
@@ -20,20 +24,29 @@ label {
     border: rgb(115,28,29) double ;
 }
 #halo {
+    font-size: large;
     background:url("https://i.ytimg.com/vi/SrPJ0j9NdVk/maxresdefault.jpg");
-    background-size: 100% 100%;
-
-
+    background-size: 50% 100%;
     background-repeat: no-repeat;
+    transition: 4s;
+}
+#halo:hover {
+    background-size: 75%100%;
 }
 #contactInfo {
+    color: rgb(178,176,17);
     font-family: 'Bangers', cursive;
 }
 #CC {
+    font-size: large;
     background:url("http://www.hdwallpapers.in/walls/command_and_conquer_3-HD.jpg") ;
-    background-size: 100%100%;
+    background-size: 50%100%;
+    background-position: right;
     background-repeat: no-repeat;
-
+    transition: 4s;
+}
+#CC:hover {
+    background-size: 75%100%;
 }
 #centerText {
     text-decoration: underline;
@@ -47,24 +60,59 @@ header h1 {
     color:rgb(178,176,17)
 }
 #league {
+    font-size: large;
 background:url("http://cdn.playbuzz.com/cdn/c827df49-7a68-411c-8ec4-afde032371e2/50f8c88d-9250-488c-916e-f161734f05df.jpg") ;
-    background-size: 100%100%;
+    background-size: 50%100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    transition: 4s;
+}
+#league:hover {
+    background-size: 75%100%
 }
 #blizzard {
+    font-size: large;
     background:url("https://victoriagiorgiana.files.wordpress.com/2014/05/blizzard-games.jpg");
-    background-size: 100%100%;
+    background-size: 50%100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    transition: 4s;
+}
+#blizzard:hover {
+    background-size: 75%100%;
 }
 #camp {
+    font-size: x-large;
     background:url("http://i.kinja-img.com/gawker-media/image/upload/oyupqdx0xdqeft3jyymb.jpg");
-    background-size: 100%100%;
+    background-size: 50%100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    transition: 4s;
+}
+#camp:hover {
+    background-size: 75%100%;
 }
 #basketBall {
+    font-size: large;
     background:url("http://ecx.images-amazon.com/images/I/81RG%2BA8r82L.jpg");
-    background-size: 100%100%;
+    background-size: 50%100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    transition: 4s;
+}
+#basketBall:hover {
+    background-size: 75%100%;
 }
 #airSoft {
+    font-size: large;
     background:url("http://blog.airsoft-squared.com/wp-content/uploads/2014/06/maxresdefault.jpg");
-    background-size: 100%100%;
+    background-size: 50%100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    transition: 4s;
+}
+#airSoft:hover {
+    background-size:75%100%
 }
 
 .mainBodytext {
@@ -110,4 +158,89 @@ background:url("http://cdn.playbuzz.com/cdn/c827df49-7a68-411c-8ec4-afde032371e2
 .myButton:active {
     position:relative;
     top:1px;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+}
+div {
+    overflow: hidden;
+}
+p {
+    animation-duration: 5s;
+    animation-name: slidein;
+
+
+}
+#centerText {
+    animation-duration: 7s;
+    animation-name: slidein;
+}
+h3 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.flex-item {
+    background: rgb(115,28,28);
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+
+    line-height: 150px;
+    color: rgb(153,151,7);
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+@media screen and (min-width: 800px) {
+    body {
+        background-color: rgb(15,69,102);
+    }
+
+}
+.modal-content {
+    background-color: rgb(15,69,102)
+}
+#siteMap {
+    font-family: 'Bangers' , cursive;
+    color: rgb(178,176,17);
+}
+#blizzText {
+    font-size: 40px;
+
+}
+#leagueText {
+    font-size: 40px;
+}
+#haloText {
+    font-size: 40px;
+}
+#ccText {
+    font-size: 40px;
+}
+#campText {
+    font-size: 40px;
+}
+#basketballText {
+    font-size: 40px;
+}
+#airsoftText {
+    font-size: 40px;
 }

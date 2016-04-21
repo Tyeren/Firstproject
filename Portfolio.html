@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>My portfolio</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="Stylesheet.css">
     <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
     <style>
@@ -25,15 +28,18 @@
         }
 
     </style>
+    
 </head>
 <body>
 <hr>
-<div id="navBar">
+<hr>
+<div class="navBar" align="center">
 <ul>
         <a href="Education.html" class="myButton">Education</a>
         <a href="Projects.html" class="myButton">Projects</a>
 </ul>
 </div>
+<hr>
 <hr>
 <div id="myInformation">
 <header> <div align="center">
@@ -48,68 +54,155 @@
 <div id="centerText" align="center">Place holder text. Placeholder text.Place holder text. Placeholder text.Place holder text. Placeholder text.Place holder text. Placeholder text.Place holder text. Placeholder text.Place holder text. Placeholder text.Place holder text. Placeholder text.Place holder text. Placeholder text.Place holder text. Placeholder text.Place holder text. Placeholder text.Place holder text. Placeholder text.Place holder text. Placeholder text.Place holder text. Placeholder text.Place holder text. Placeholder text.</div>
     </div>
 <hr>
+<hr>
 <div id="hobbys">
     <h3>Here are some of my hobbys!</h3>
     <p>Video games:</p>
-    <div id="halo" align="center"><a href="https://www.halowaypoint.com/en-us"><span style="background:darkolivegreen">Halo</span></a>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    <div align="center" id="haloText"><a href="https://www.halowaypoint.com/en-us"><span style= "background:lightgreen">Halo</span></a>
+        </div>
+    <div id="halo">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       </div>
-    <br>
-    <div  id="CC" align="center"><a href="http://www.commandandconquer.com/"><span style="background:greenyellow">Command & Conquer</span></a>
+<br>
+    <div align="center" id="ccText"><a href="http://www.commandandconquer.com/"><span style="background:greenyellow">Command & Conquer</span></a>
+        </div>
+    <div  id="CC">
 
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
     <br>
-   <div align="center" id="league"> <a href="http://na.leagueoflegends.com/"><span style="background:gold">League of Legends</span></a>
+    <div align="center" id="leagueText"> <a href="http://na.leagueoflegends.com/"><span style="background:gold">League of Legends</span></a>
+        </div>
+   <div id="league">
        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
    </div>
     <br>
-
-    <div align="center" id="blizzard"> <p><a href="http://us.blizzard.com/en-us/"><span style="background:powderblue">Blizzard Games</span></a></p>
+    <div id="blizzText" align="center"><a href="http://us.blizzard.com/en-us/"><span style="background:powderblue">Blizzard Games</span></a>
+        </div>
+    <div id="blizzard">
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
     <br>
-
-
-    <div align="center" id="camp"> <p><a href="https://en.wikipedia.org/wiki/Camping"><span style ="background:saddlebrown">camping</span> </a></p>
+    <div align="center" id="campText"> <a href="https://en.wikipedia.org/wiki/Camping"><span style ="background:lightgoldenrodyellow">camping</span> </a>
+        </div>
+    <div id="camp">
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
-
-   <div align="center"  id="basketBall"> <p><a href="https://en.wikipedia.org/wiki/Basketball">Basketball!</a></p>
+<br>
+    <div align="center" id="basketballText"> <a href="https://en.wikipedia.org/wiki/Basketball"><span style ="background: #FF8119">Basketball!</span></a>
+        </div>
+   <div id="basketBall">
        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     </div>
     <br>
-   <div align="center" id="airSoft"> <a href="https://en.wikipedia.org/wiki/Airsoft">Airsoft!</a>
+    <div align="center" id="airsoftText"> <a href="https://en.wikipedia.org/wiki/Airsoft"><span style ="background: lightgray">Airsoft!</span></a>
+        </div>
+   <div id="airSoft">
        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
-
 </div>
-<div id="userInfo"
-<br><br><br><hr>
- <div id="contactInfo" align="left">If you would like to contact me please leave your information below. Thank you!
-Name
-<form name="textInputs" method="GET" action="Inputs.html">
-    <label for="firstName"></label><input id="firstName" name="first" placeholder="First" required>
-    <br>
-    <label for="lastName"></label><input id="lastName" name="last" placeholder="Last" required>
-    <br><br>
-    <label for="email">email</label><input type="email" id="email" name="email" placeholder="example@example.com" required>
-    <br>
-    <label for="phoneNumber">Phone Number</label><input type="tel" id="phoneNumber" name="phoneNumber" placeholder="___-___-____" minlength="10" maxlength="12">
-    <br><br>
-    Tell me about yourself:<textarea cols="30" rows="1"></textarea>
-    <input type="submit" value="submit">
+<hr><hr>
+<div id="userInfo">
+ <div id="contactInfo">
+     <div class="container">
+         <h2>If you would like me to contact you please leave your information below. Thank you!</h2>
+         <!-- Trigger the modal with a button -->
+         <button type="button" class="myButton" data-toggle="modal" data-target="#myModal">Click here to leave your contact info!</button>
+
+         <!-- Modal -->
+         <div class="modal fade" id="myModal" role="dialog">
+             <div class="modal-dialog">
+
+                 <!-- Modal content-->
+                 <div class="modal-content">
+                     <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal">&times;</button>
+                         <h4 class="modal-title">Leave your information below! Thank you!</h4>
+                     </div>
+                     <div class="modal-body">
+                             Name
+                             <form name="textInputs" method="GET" action="Inputs.html">
+                                 <label for="firstName"></label><input id="firstName" name="first" placeholder="First" required>
+                                 <br>
+                                 <label for="lastName"></label><input id="lastName" name="last" placeholder="Last" required>
+                                 <br><br>
+                                 <label for="email">email</label><input type="email" id="email" name="email" placeholder="example@example.com" required>
+                                 <br>
+                                 <label for="phoneNumber">Phone Number</label><input type="tel" id="phoneNumber" name="phoneNumber" placeholder="___-___-____" minlength="10" maxlength="12">
+                                 <br><br>
+                                 <label for="contacterInfo"> Tell me about yourself:<textarea id="contacterInfo" cols="30" rows="1"></textarea></label>
+                                 <input type="submit" value="submit">
+                             </form>
+
+                     </div>
+                     <div class="modal-footer">
+                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+
+     </div>
+     </div>
+<br><br>
+    <hr><hr>
     </div>
-</form>
-<br><br><hr>
-    </div>
-<div id="navBar">
+<div class="navBar">
 
     <a href="Education.html" class="myButton">Education</a>
     <a href="Projects.html" class="myButton">Projects</a>
+    <div id="siteMap">
+        <div class="container">
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="myButton" data-toggle="modal" data-target="#myModal2">Sitemap</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal2" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Sitemap!</h4>
+                        </div>
+                        <div class="modal-body">
+                            <a href="Education.html" class="myButton">Education</a>
+                            <br>
+                            <a href="Projects.html" class="myButton">Projects</a>
+                            <br>
+                            <a href="https://www.halowaypoint.com/en-us" class="myButton">Halo</a>
+                            <br>
+                            <a href="http://www.commandandconquer.com/" class="myButton">Command and Conquer</a>
+                            <br>
+                            <a href="http://na.leagueoflegends.com/" class="myButton">League of Legends</a>
+                            <br>
+                            <a href="http://us.blizzard.com/en-us/" class="myButton">Blizzard Games</a>
+                            <br>
+                            <a href="https://en.wikipedia.org/wiki/Camping" class="myButton">Camping</a>
+                            <br>
+                            <a href="https://en.wikipedia.org/wiki/Basketball" class="myButton">Basketball</a>
+                            <br>
+                            <a href="https://en.wikipedia.org/wiki/Airsoft" class="myButton">Airsoft</a>
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 </div>
+<hr>
 <hr>
 
 </body>
