@@ -243,3 +243,14 @@ h3 {
 #airsoftText {
     font-size: 40px;
 }
+.resumeTxt {
+    font-family: 'Bangers' , cursive;
+    color: black;
+    font-size: 20px;
+}
+.resumeHeaders {
+    font-family: 'Bangers' , cursive;
+    color: rgb(115,28,28);
+    font-size: 40px;
+    font-weight: bolder;
+}
