@@ -25,13 +25,13 @@ label {
 }
 #halo {
     font-size: large;
-    background:url("https://i.ytimg.com/vi/SrPJ0j9NdVk/maxresdefault.jpg");
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
     transition: 4s;
 }
 #halo:hover {
-    background-size: 75%100%;
+    width: 75%;
+    height: 100%;
 }
 #contactInfo {
     color: rgb(178,176,17);
@@ -176,7 +176,7 @@ background:url("http://cdn.playbuzz.com/cdn/c827df49-7a68-411c-8ec4-afde032371e2
 div {
     overflow: hidden;
 }
-p {
+h4 {
     animation-duration: 5s;
     animation-name: slidein;
 
