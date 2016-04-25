@@ -2,7 +2,6 @@
     font-size: large;
     color: black;
     background:url("http://dreamatico.com/data_images/cloud/cloud-4.jpg")  ;
-    opacity: ;
     font-family: 'Bangers' , cursive;
 }
 #centerText {
@@ -39,14 +38,13 @@ label {
 }
 #CC {
     font-size: large;
-    background:url("http://www.hdwallpapers.in/walls/command_and_conquer_3-HD.jpg") ;
-    background-size: 50%100%;
-    background-position: right;
-    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
     transition: 4s;
 }
 #CC:hover {
-    background-size: 75%100%;
+   width: 75%;
+    height: 100%;
 }
 #centerText {
     text-decoration: underline;
@@ -61,57 +59,49 @@ header h1 {
 }
 #league {
     font-size: large;
-background:url("http://cdn.playbuzz.com/cdn/c827df49-7a68-411c-8ec4-afde032371e2/50f8c88d-9250-488c-916e-f161734f05df.jpg") ;
-    background-size: 50%100%;
-    background-position: left;
-    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
     transition: 4s;
 }
 #league:hover {
-    background-size: 75%100%
+    width: 75%;
+    height: 100%;
 }
 #blizzard {
-    font-size: large;
-    background:url("https://victoriagiorgiana.files.wordpress.com/2014/05/blizzard-games.jpg");
-    background-size: 50%100%;
-    background-position: right;
-    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
     transition: 4s;
 }
 #blizzard:hover {
-    background-size: 75%100%;
+    width: 75%;
+    height: 100%;
 }
 #camp {
-    font-size: x-large;
-    background:url("http://i.kinja-img.com/gawker-media/image/upload/oyupqdx0xdqeft3jyymb.jpg");
-    background-size: 50%100%;
-    background-position: left;
-    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
     transition: 4s;
 }
 #camp:hover {
-    background-size: 75%100%;
+    width: 75%;
+    height: 100%;
 }
 #basketBall {
-    background:url("http://ecx.images-amazon.com/images/I/81RG%2BA8r82L.jpg");
-    background-size: 50%100%;
-    background-position: right;
-    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
     transition: 4s;
 }
 #basketBall:hover {
-    background-size: 75%100%;
+    width: 75%;
+    height: 100%;
 }
 #airSoft {
-    font-size: large;
-    background:url("http://blog.airsoft-squared.com/wp-content/uploads/2014/06/maxresdefault.jpg");
-    background-size: 50%100%;
-    background-position: left;
-    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
     transition: 4s;
 }
 #airSoft:hover {
-    background-size:75%100%
+   width: 75%;
+    height: 100%;
 }
 
 .mainBodytext {
@@ -195,7 +185,7 @@ h3 {
     flex-flow: row wrap;
     justify-content: space-around;
 }
-.flex-item {
+.flex-item1 {
     background: rgb(115,28,28);
     padding: 5px;
     width: 200px;
@@ -208,6 +198,50 @@ h3 {
     font-size: 3em;
     text-align: center;
 }
+
+#flex-item2 {
+     display: flex;
+     flex-direction: column;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+
+    line-height: 150px;
+ }
+#flex-item2 img {
+    margin: 0;
+    width: 100%;
+}
+#flex-item3 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+
+    line-height: 150px;
+}
+#flex-item3 img {
+    margin: 0;
+    width: 100%;
+}
+#flex-item4 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+
+    line-height: 150px;
+}
+#flex-item4 img {
+    margin: 0;
+    width: 100%;
+}
+
 @media screen and (min-width: 800px) {
     body {
         background-color: rgb(15,69,102);
@@ -253,4 +287,10 @@ h3 {
     color: rgb(115,28,28);
     font-size: 40px;
     font-weight: bolder;
+}
+#eduTxt {
+    font-size: xx-large;
+}
+#projectTxt {
+    font-size: xx-large;
 }
